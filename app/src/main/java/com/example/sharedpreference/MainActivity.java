@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
 
     EditText username;
     EditText password;
-
+// hello
     public void save(View view){
         saveToDevice();
     }
@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        username = (EditText)findViewById(R.id.editText1);
-        password = (EditText)findViewById(R.id.editText2);
+        username = findViewById(R.id.editText1);
+        password = findViewById(R.id.editText2);
 
     }
 
